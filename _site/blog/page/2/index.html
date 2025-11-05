@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css-1.9.3.min.css">
+<style>
+  body { 
+    font-family: Arial, sans-serif; 
+    color: #111;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 4px solid #0044cc;
+    padding: 0 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  h1, h2, h3, h4, h5 { font-family: "Arial Black", Arial, sans-serif; color: #0044cc; }
+  a { color: #0044cc; }
+  a:hover { color: #ff6600; }
+  header, footer { text-align: center; padding: 1rem; }
+  main { flex: 1; }
+  nav a { margin: 0 1rem; text-decoration: none; }
+  nav a.active { font-weight: bold; color: #ff6600; }
+  .card { border: 1px solid #ddd; padding: 1rem; margin-bottom: 1rem; border-radius: 5px; }
+  .button { background-color: #0044cc; color: white; padding: 0.4rem 0.8rem; border-radius: 3px; text-decoration: none; }
+  .button:hover { background-color: #ff6600; }
+  
+  @media (max-width: 768px) {
+    body {
+      border-width: 2px;
+      padding: 0 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1><a href="/">Implicit Notes</a></h1>
+  <p>A minimalist Eleventy theme using Tacit CSS</p>
+  <nav>
+    <a href="/" >Home</a>
+    <a href="/about/" >About</a>
+    <a href="/blog/" class="active">Blog</a>
+  </nav>
+</header>
+<main>
+
+<h2>Blog Posts</h2>
+
+
+<div class="card">
+  <h2><a href="/blog/drama/raisin/">A Raisin in the Sun</a></h2>
+  <p><small>Dec 27, 2024</small></p>
+  <p>(excerpt) MAMA: Son—how come you talk so much &#39;bout money? WALTER (with immense passion): Because it is life, Mama! MAMA: Oh—So now it’s life. Money...</p>
+  <a class="button" href="/blog/drama/raisin/">Read more</a>
+</div>
+
+<div class="card">
+  <h2><a href="/blog/narrative/">Narrative of the Life of Frederick Douglass</a></h2>
+  <p><small>Dec 27, 2024</small></p>
+  <p>PREFACE In the month of August, 1841, I attended an anti-slavery convention in Nantucket, at which it was my happiness to become acquainted with...</p>
+  <a class="button" href="/blog/narrative/">Read more</a>
+</div>
+
+<div class="card">
+  <h2><a href="/blog/fifthpost/">This is a fifth post (draft)</a></h2>
+  <p><small>Jan 23, 2023</small></p>
+  <p>This is a draft post</p>
+  <a class="button" href="/blog/fifthpost/">Read more</a>
+</div>
+
+<div class="card">
+  <h2><a href="/blog/fourthpost/">This is my fourth post</a></h2>
+  <p><small>Sep 30, 2018</small></p>
+  <p>This is a post on My Blog about touchpoints and circling wagons.</p>
+  <a class="button" href="/blog/fourthpost/">Read more</a>
+</div>
+
+<div class="card">
+  <h2><a href="/blog/thirdpost/">This is my third post.</a></h2>
+  <p><small>Aug 24, 2018</small></p>
+  <p>This is a post on My Blog about win-win survival strategies.</p>
+  <a class="button" href="/blog/thirdpost/">Read more</a>
+</div>
+
+
+
+<nav>
+<a href="/blog/">← Newer</a>
+Page 2 of 3
+<a href="/blog/page/3/">Older →</a>
+</nav>
+
+
+</main>
+<footer>
+  <p>&copy; 2025 Adam DJ Brett</p>
+</footer>
+</body>
+</html>
